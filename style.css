@@ -1,0 +1,192 @@
+body {
+	color: white;
+	font-family: 'Roboto Mono', monospace;
+	background-image: url(sky.jpg);
+}
+
+h1 {
+	color: white;
+	transition: 0.6s;
+	text-align: center;
+	text-shadow: 2px 2px magenta;
+}
+
+h2 {
+	color: white;
+	transition: 0.6s;
+	text-align: center;
+	text-shadow: 2px 2px magenta;
+}
+
+.login-system {
+	margin-top: -30px;
+	width: 350px;
+	height: auto;
+}
+
+.box {
+	width: 350px;
+	height: 400px;
+	padding: 50px;
+	margin: auto;
+	transition: 0.4s;
+	border-radius: 15px;
+	border: 8px solid rgba(42, 5, 74, 0.2);
+	background-color: rgba(30, 0, 58, 0.2);
+}
+
+.box:hover {
+	transition: 0.55s;
+	border-radius: 25px;
+	background-color: rgb(30, 0, 58, 0.65);
+	border: 5px solid black;
+}
+
+.input_SYSTEMx32 {
+	transition: 0.55s;
+	margin: auto;
+	width: 350px;
+	height: 34px;
+
+	align-items: center;
+	text-align: center;
+	border-radius: 3px;
+	border-bottom: 5px;
+	border-color: rgba(17, 0, 32, 0.3);
+	border-style: solid;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	background-color: rgb(64, 1, 122, 0.25);
+	color: rgba(255, 255, 255, 0.15);
+	font-size: 20px;
+	font-family: 'Roboto Mono', monospace;
+}
+
+.input_SYSTEMx32:focus {
+	transition: 0.55s;
+	border-radius: 20px;
+	background-color: rgb(64, 1, 122);
+	border-color: rgba(17, 0, 32);
+	color: white;
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 18px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.input_SYSTEMx32:hover {
+	transition: 0.55s;
+	border-radius: 20px;
+	background-color: rgb(64, 1, 122);
+	border-color: rgba(17, 0, 32);
+	color: white;
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 18px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+input[type='text'] {
+	margin: auto;
+	text-align: center;
+}
+
+.inputP_SYSTEMx32 {
+	transition: 0.55s;
+	margin: auto;
+	width: 350px;
+	height: 34px;
+	align-items: center;
+	text-align: center;
+	border-radius: 3px;
+	border-bottom: 5px;
+	border-color: rgba(17, 0, 32, 0.3);
+	border-style: solid;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	background-color: rgb(64, 1, 122, 0.25);
+	color: rgba(255, 255, 255, 0.15);
+	font-size: 20px;
+	font-family: 'Akatab', sans-serif;
+	-webkit-text-security: disc;
+	font-size: 20px;
+}
+
+.inputP_SYSTEMx32:focus {
+	transition: 0.55s;
+	height: 34px;
+
+	border-radius: 20px;
+	background-color: rgb(64, 1, 122);
+	border-color: rgba(17, 0, 32);
+	color: rgba(255, 255, 255, 0);
+	-webkit-text-security: disc;
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 18px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.inputP_SYSTEMx32:hover {
+	transition: 0.55s;
+	height: 34px;
+
+	border-radius: 20px;
+	background-color: rgb(64, 1, 122);
+	border-color: rgba(17, 0, 32);
+	color: rgba(255, 255, 255, 0);
+	-webkit-text-security: disc;
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 18px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+input[type='password'] {
+	-webkit-text-security: disc;
+	color: rgba(255, 255, 255, 0.3);
+	font-size: 20px;
+	height: 34px;
+}
+
+input[type='password']:hover {
+	-webkit-text-security: disc;
+	transition: 0.55s;
+	border-radius: 20px;
+	height: 34px;
+	background-color: rgb(64, 1, 122);
+	border-color: rgba(17, 0, 32);
+	color: rgba(255, 255, 255);
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 18px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+input[type='password']:focus {
+	transition: 0.55s;
+	border-radius: 20px;
+	height: 34px;
+	background-color: rgb(64, 1, 122);
+	border-color: rgba(17, 0, 32);
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 18px 50px 0 rgba(0, 0, 0, 0.19);
+	color: rgba(255, 255, 255);
+}
+
+.button-login {
+	transition: 0.55s;
+	margin-left: 75px;
+	margin-right: 75px;
+	width: 200px;
+	height: 45px;
+	margin-top: 15px;
+	font-size: 20px;
+	font-family: 'Akatab', sans-serif;
+	color: rgba(255, 255, 255, 0.3);
+	background-color: rgba(62, 0, 120, 0.563);
+	border-top: 0px;
+	border-bottom: 0px;
+	border-right: 0px;
+	border-left: 0px;
+	border-radius: 5px;
+}
+
+.button-login:hover {
+	transition: 0.55s;
+	color: white;
+	background-color: rgba(62, 0, 120);
+	border-radius: 20px;
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 18px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button-login:active {
+	transition: 0.35s;
+	transform: translateY(5px);
+}
